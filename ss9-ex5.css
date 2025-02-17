@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 10%;
+    border: 2px solid black;
+    width: 80%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+
+}
+
+span{
+    display: flex;
+    background-color: #800080;
+    width: 16%;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.td78{
+    padding-left: 0.6%;
+    padding-right: 0.6%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
